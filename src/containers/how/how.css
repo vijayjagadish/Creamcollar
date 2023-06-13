@@ -1,0 +1,214 @@
+.creamcollar__how{
+    display: flex;
+    flex-direction: column;
+}
+.creamcollar__how-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.creamcollar__how-container h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #FDB01A;
+
+}
+.creamcollar__how-container h2{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #090D73;
+
+}
+.creamcollar__how-container p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:4rem;
+    margin-top: 4rem;
+    color: #090D73;
+
+}
+
+.creamcollar__how-container-links{
+    display: flex;
+    flex-direction: column;
+
+}
+.creamcollar__how-container-links h1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #090D73;
+
+}
+.creamcollar__how-container-links p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:4rem;
+    color: #090D73;
+
+}
+
+.creamcollar__how-container-links-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+
+}
+.creamcollar__how-container-links-heading h2{
+    background: #FDB01A;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    color: #090D73;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+    .creamcollar__how-container h1{
+        font-size: 50px;
+        line-height: 55px
+    }
+    .creamcollar__how-container h2{
+        font-size: 45px;
+        line-height: 50px
+    }
+    .creamcollar__how-container p{
+        font-size: 30px;
+        line-height: 40px
+    }
+    .creamcollar__how-container-links h1{
+        font-size: 80px;
+        line-height: 90px
+    }
+    .creamcollar__how-container-links p{
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .creamcollar__how-container-links-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .creamcollar__how-container-links-heading h2{
+        justify-content: space-between;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .creamcollar__how-container h1{
+        font-size: 40px;
+        line-height: 50px
+    }
+    .creamcollar__how-container h2{
+        font-size: 40px;
+        line-height: 45px
+    }
+    .creamcollar__how-container p{
+        font-size: 10px;
+        line-height: 15px;
+        justify-content: center;
+    }
+    .creamcollar__how-container-links h1{
+        font-size: 60px;
+        line-height: 70px
+    }
+    .creamcollar__how-container-links p{
+        font-size: 25px;
+        line-height: 35px
+    }
+
+    .creamcollar__how-container-links-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+    }
+
+    .creamcollar__how-container-links-heading h2{
+        justify-content: space-between;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .creamcollar__how-container h1{
+        font-size: 40px;
+        line-height: 50px
+    }
+    .creamcollar__how-container h2{
+        font-size: 35px;
+        line-height: 30px
+    }
+    .creamcollar__how-container p{
+        font-size: 25px;
+        line-height: 35px
+    }
+    .creamcollar__how-container-links h1{
+        font-size: 50px;
+        line-height: 60px
+    }
+    .creamcollar__how-container-links p{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 2rem;
+    }
+
+    .creamcollar__how-container-links-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        
+    }
+
+    .creamcollar__how-container-links-heading h2{
+        justify-content: space-between;
+        font-size: 10px;
+        line-height: 10px;
+    }
+}

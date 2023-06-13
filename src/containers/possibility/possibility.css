@@ -1,0 +1,84 @@
+.creamcollar__need{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+
+
+}
+
+.creamcollar__need p {
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    font-weight: 200;
+    font-size: 54px;
+    line-height: 64px;
+    color: #090D73;
+    
+}
+
+.commaend__need {
+    width: 112.41px;
+    height: 74px;
+    left: 1037px;
+    top: 1000px;
+    opacity: 0.9;
+}
+.commastart__need {
+    
+    width: 112.41px;
+    height: 74px;
+    left: 45px;
+    top: 1000px;
+    opacity: 0.9;
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .creamcollar__brand p {
+        flex-direction: column;
+        margin:0 0 3rem;
+    }
+
+    .creamcollar__brand p {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .creamcollar__brand img{
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .creamcollar__brand p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .creamcollar__brand img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .creamcollar__brand p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .creamcollar__brand img{
+        display: none;
+    }
+
+    .creamcollar__brand-automobile p {
+        margin-right: 3rem;
+        align-items: center;
+        justify-self: center;
+    }
+
+}

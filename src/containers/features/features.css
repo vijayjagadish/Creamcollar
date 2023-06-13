@@ -1,0 +1,85 @@
+.creamcollar__challenge{
+    display: flex;
+    flex-direction: row;
+}
+
+.creamcollar__challenge-links {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 1rem;
+}
+
+.creamcollar__challenge-links h1{
+    width: 288px;
+    height: 75px;
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #090D73;
+}
+
+.creamcollar__challenge-links p {
+    width: 633px;
+    height: 639px;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.creamcollar__challenge-image {
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.creamcollar__challenge-image img {
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width:1050px) {
+
+    .creamcollar__challenge {
+        flex-direction: column;
+
+    }
+
+    .creamcollar__challenge-links {
+        margin: 0,0,3rem;
+    }   
+}
+
+@media screen and (max-width: 650px) {
+
+    .creamcollar__challenge-links p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .creamcollar__challenge-links p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 400px;
+        height: 400px;
+        margin-left: 2rem;
+    }
+}

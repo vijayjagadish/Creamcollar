@@ -1,0 +1,62 @@
+.creamcollar__opp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 54px;
+    line-height: 64px;
+    color: #090D73;
+    margin-left: 10rem;
+
+}
+
+.creamcollar__opp p {
+    font-family: var(--font-family);
+    margin-top: 1rem;
+    margin-right: 2rem;
+    
+}
+
+.creamcollar__opp-contant  {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .creamcollar__opp p {
+        flex-direction: column;
+        margin:0 0 3rem;
+    }
+
+    .creamcollar__opp p {
+        font-size: 40px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .creamcollar__opp p {
+        font-size: 30px;
+        line-height: 30px;
+        margin-right: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .creamcollar__opp p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .creamcollar__opp-contant p {
+
+        align-items: center;
+        justify-self: center;
+    }
+
+}
