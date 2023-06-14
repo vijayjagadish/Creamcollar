@@ -44,6 +44,7 @@ const Contact = () => {
           style={{border:0}}
           allowfullscreen="" 
           loading="lazy" 
+          title="map"
           referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
