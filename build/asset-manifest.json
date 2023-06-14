@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6d2463e.css",
+    "main.js": "/static/js/main.96a44afc.js",
+    "static/media/capdone.png": "/static/media/capdone.61662f0603d3efdaeb9d.png",
+    "static/media/gear.png": "/static/media/gear.92659eee97bd3519cd10.png",
+    "static/media/car.png": "/static/media/car.917d4c12cc2bc9192ce8.png",
+    "static/media/cap.png": "/static/media/cap.f9c91d57bb06292700ba.png",
+    "static/media/ladyclock.png": "/static/media/ladyclock.c93f5702bd3b19b56dd6.png",
+    "static/media/manpuzzle.png": "/static/media/manpuzzle.a542a1a1374c1bbe1846.png",
+    "index.html": "/index.html",
+    "main.d6d2463e.css.map": "/static/css/main.d6d2463e.css.map",
+    "main.96a44afc.js.map": "/static/js/main.96a44afc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6d2463e.css",
+    "static/js/main.96a44afc.js"
+  ]
+}
